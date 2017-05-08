@@ -60,7 +60,6 @@
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
-    <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
@@ -81,10 +80,6 @@
     <ProjectReference Include="..\Rsx.Math\Rsx.Math.csproj">
       <Project>{fa4e76b3-ff57-4b1c-b25b-e9b44de263be}</Project>
       <Name>Rsx.Math</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Rsx\Rsx.csproj">
-      <Project>{9f9e4341-5ff3-47f6-876f-a7b9c4e4faed}</Project>
-      <Name>Rsx</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
